@@ -7,10 +7,7 @@ let wheelSize: CGFloat = 400
 class wheelclass: UIViewController {
     @IBOutlet weak var btn: UIButton!
     
-    @IBAction func currentlyAuselessButton(_ sender: UIButton) {
-      wheel.physicsBody?.angularVelocity = 100
-       wheel.physicsBody?.angularDamping = 0
-    }
+
     
     let wheel = Wheel(size: wheelSize,
                       colors: [.red, .blue, .green, .white, .purple, .brown])
