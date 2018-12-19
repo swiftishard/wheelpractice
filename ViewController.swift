@@ -6,8 +6,7 @@ import SpriteKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var tf1: UITextField!
-    @IBOutlet weak var tf2: UITextField!
+ 
     @IBOutlet weak var button: UIButton!
     
     @IBAction func btnPressed(_ sender: UIButton) {
